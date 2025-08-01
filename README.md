@@ -4,30 +4,6 @@ A simple Java web-scraping project that extracts data from a dummy e‑commerce 
 
 ---
 
-## 🧩 Project Structure
-
-```
-WebScrapingJava/
-├── data/
-│   └── output.json           ← generated JSON data
-├── src/main/java/
-│   └── scraper/              ← scraping code
-│       ├── Scraper.java
-│       └── models/
-│           └── Product.java
-├── postman/
-│   └── WebScrapingJava.postman_collection.json
-├── pom.xml                   ← Maven project file
-└── README.md
-```
-
-- **src/main/java/scraper/** – Java classes to fetch and parse the e‑commerce page.
-- **data/output.json** – Stores scraped products (auto-generated).
-- **postman/WebScrapingJava.postman_collection.json** – Postman collection with sample GET and POST requests.
-- **pom.xml** – Maven dependencies and build settings.
-
----
-
 ## 🛠 Prerequisites
 
 - Java 8+ (JDK installed)
